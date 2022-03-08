@@ -24,3 +24,25 @@ int main()
   
   cout << " }";
 }
+
+
+
+/*
+int main()
+{
+  int number;
+  
+  cout << "Enter Number for Show in Set : " << endl;
+  cin >> number;
+  
+  cout << "{ ";
+
+  for (int i = 1; i <= number;i++)
+  {
+    cout << i << ", ";
+  }
+  cout << "\b\b";
+  cout << " }";
+  
+  return 0;
+}*/
