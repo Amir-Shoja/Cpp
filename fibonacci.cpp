@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int64_t fibo;
-
 int desired(int n)
 {
     if (n <= 1)
