@@ -14,164 +14,59 @@ int main()
     {
         switch (ch)
         {
-        case 'a':
-            ++a;
-            break;
-        case 'b':
-            ++b;
-            break;
-        case 'c':
-            ++c;
-            break;
-        case 'd':
-            ++d;
-            break;
-        case 'e':
-            ++e;
-            break;
-        case 'f':
-            ++f;
-            break;
-        case 'g':
-            ++g;
-            break;
-        case 'h':
-            ++h;
-            break;
-        case 'i':
-            ++i;
-            break;
-        case 'j':
-            ++j;
-            break;
-        case 'k':
-            ++k;
-            break;
-        case 'l':
-            ++l;
-            break;
-        case 'm':
-            ++m;
-            break;
-        case 'n':
-            ++n;
-            break;
-        case 'o':
-            ++o;
-            break;
-        case 'p':
-            ++p;
-            break;
-        case 'q':
-            ++q;
-            break;
-        case 'r':
-            ++r;
-            break;
-        case 's':
-            ++s;
-            break;
-        case 't':
-            ++t;
-            break;
-        case 'u':
-            ++u;
-            break;
-        case 'v':
-            ++v;
-            break;
-        case 'w':
-            ++w;
-            break;
-        case 'x':
-            ++x;
-            break;
-        case 'y':
-            ++y;
-            break;
-        case 'z':
-            ++z;
-            break;
-        case 'A':
-            ++A;
-            break;
-        case 'B':
-            ++B;
-            break;
-        case 'C':
-            ++C;
-            break;
-        case 'D':
-            ++D;
-            break;
-        case 'E':
-            ++E;
-            break;
-        case 'F':
-            ++F;
-            break;
-        case 'G':
-            ++G;
-            break;
-        case 'H':
-            ++H;
-            break;
-        case 'I':
-            ++I;
-            break;
-        case 'J':
-            ++J;
-            break;
-        case 'K':
-            ++K;
-            break;
-        case 'L':
-            ++L;
-            break;
-        case 'M':
-            ++M;
-            break;
-        case 'N':
-            ++N;
-            break;
-        case 'O':
-            ++O;
-            break;
-        case 'P':
-            ++P;
-            break;
-        case 'Q':
-            ++Q;
-            break;
-        case 'R':
-            ++R;
-            break;
-        case 'S':
-            ++S;
-            break;
-        case 'T':
-            ++T;
-            break;
-        case 'U':
-            ++U;
-            break;
-        case 'V':
-            ++V;
-            break;
-        case 'W':
-            ++W;
-            break;
-        case 'X':
-            ++X;
-            break;
-        case 'Y':
-            ++Y;
-            break;
-        case 'Z':
-            ++Z;
-            break;
-        default:
-            break;
+        case 'a': ++a; break;
+        case 'b': ++b; break;
+        case 'c': ++c; break;
+        case 'd': ++d; break;
+        case 'e': ++e; break;
+        case 'f': ++f; break;
+        case 'g': ++g; break;
+        case 'h': ++h; break;
+        case 'i': ++i; break;
+        case 'j': ++j; break;
+        case 'k': ++k; break;
+        case 'l': ++l; break;
+        case 'm': ++m; break;
+        case 'n': ++n; break;
+        case 'o': ++o; break;
+        case 'p': ++p; break;
+        case 'q': ++q; break;
+        case 'r': ++r; break;
+        case 's': ++s; break;
+        case 't': ++t; break;
+        case 'u': ++u; break;
+        case 'v': ++v; break;
+        case 'w': ++w; break;
+        case 'x': ++x; break;
+        case 'y': ++y; break;
+        case 'z': ++z; break;
+        case 'A': ++A; break;
+        case 'B': ++B; break;
+        case 'C': ++C; break;
+        case 'D': ++D; break;
+        case 'E': ++E; break;
+        case 'F': ++F; break;
+        case 'G': ++G; break;
+        case 'H': ++H; break;
+        case 'I': ++I; break;
+        case 'J': ++J; break;
+        case 'K': ++K; break;
+        case 'L': ++L; break;
+        case 'M': ++M; break;
+        case 'N': ++N; break;
+        case 'O': ++O; break;
+        case 'P': ++P; break;
+        case 'Q': ++Q; break;
+        case 'R': ++R; break;
+        case 'S': ++S; break;
+        case 'T': ++T; break;
+        case 'U': ++U; break;
+        case 'V': ++V; break;
+        case 'W': ++W; break;
+        case 'X': ++X; break;
+        case 'Y': ++Y; break;
+        case 'Z': ++Z; break;
+        default: break;
         }
     }
     cout << "a : " << a << endl
