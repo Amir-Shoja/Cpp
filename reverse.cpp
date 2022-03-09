@@ -58,3 +58,18 @@ int main()
 
   return 0;
 }*/
+
+/*int main()
+{
+  int mod, number;
+  cout << "enter number : ";
+  cin >> number;
+  do
+  {
+    mod = number % 10;
+    cout << mod;
+    number /= 10;
+  } while (number != 0);
+
+  return 0;
+}*/
