@@ -73,3 +73,19 @@ int main()
 
   return 0;
 }*/
+/*void reverce(int x)
+{
+    if (x)
+    {
+        cout << x % 10;
+        reverce(x / 10);
+    }
+}
+int main()
+{
+    int number;
+    cout << "Enter Number : ";
+    cin >> number;
+    cout << "\nreverce : ";
+    reverce(number);
+}*/
