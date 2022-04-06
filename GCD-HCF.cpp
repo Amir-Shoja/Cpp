@@ -34,6 +34,15 @@ int gcd(int64_t x, int64_t y)
     return y; // 3435979
 }
 
+/*int gcd(int64_t x, int64_t y)
+{
+  if (x == 0)
+    return y;
+  if (y == 0)
+    return x;
+  return gcd(y, x % y);
+}*/
+
 /*int gcd(int a, int b)
 {
     return b == 0 ? a : gcd(b, a % b);
