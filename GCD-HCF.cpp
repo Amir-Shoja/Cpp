@@ -3,34 +3,35 @@
 #include <iostream>
 using namespace std;
 
-int gcd(int, int);
+int gcd(int64_t, int64_t);
 
 int main()
 {
-    int num1, num2;
+    int64_t num1, num2;
     cout << "Entern tow number for find GCD :" << endl
          << "Num1 : ";
-    cin >> num1;
+    cin >> num1; // 11805951688441
     cout << "Num2 : ";
-    cin >> num2;
+    cin >> num2; // 268301856194
 
     cout << "we use Euclidean method for find gcd :" << endl
-         << "gcd is : " << gcd(num1, num2);
+         << "gcd is : ";
+    cout << gcd(num1, num2);
 
     return 0;
 }
 
-int gcd(int x, int y)
+int gcd(int64_t x, int64_t y)
 {
-    int r = x % y;
+    int64_t mood = x % y;
 
-    while (r != 0)
+    while (mood != 0)
     {
         x = y;
-        y = r;
-        r = x % y;
+        y = mood;
+        mood = x % y;
     }
-    return y;
+    return y; // 3435979
 }
 
 /*int gcd(int a, int b)
