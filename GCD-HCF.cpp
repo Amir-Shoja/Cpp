@@ -15,8 +15,7 @@ int main()
     cin >> num2;
 
     cout << "we use Euclidean method for find gcd :" << endl
-         << "gcd is : ";
-    cout << gcd(num1, num2);
+         << "gcd is : " << gcd(num1, num2);
 
     return 0;
 }
