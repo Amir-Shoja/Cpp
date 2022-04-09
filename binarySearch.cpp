@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 
-int sort(int arr[], int size)
+void sort(int arr[], int size)
 {
     int temp;
     for (int i = 0; i < size - 1; i++)
@@ -17,6 +17,10 @@ int sort(int arr[], int size)
             }
         }
     }
+    cout << "Sorted Array : [ ";
+    for (int i = 0; i < size; i++)
+        cout << arr[i] << " ";
+    cout << "]" << endl;
 }
 
 void StepsToFind(const int arr[], int low, int middle, int high, int size)
@@ -66,17 +70,17 @@ int main()
     }
 
     // print array
-    cout << "\nArray : [ ";
+    cout << "\nYou'r Array : [ ";
     for (int i = 0; i < size; i++)
         cout << arr[i] << " ";
-    cout << "]";
+    cout << "]" << endl;
+
+    // sort array
+    sort(arr, size);
 
     // Get key
     cout << "\n\nEnter the number you are looking for : ";
     cin >> key;
-
-    // sort array
-    sort(arr, size);
 
     // Steps to find
     for (int j = 0; j < size; j++)
@@ -92,7 +96,7 @@ int main()
 
     // return result
     if (check != 0)
-        cout << "** Found ** \nin element : " << check;
+        cout << "\n** Found ** \nin element : " << check;
     else
         cout << "Not Found";
 }
